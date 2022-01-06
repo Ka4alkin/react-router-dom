@@ -4,6 +4,7 @@ import Aboutpage from "./pages/Aboutpage";
 import Blogpage from "./pages/Blogpage";
 import Notfoundpage from "./pages/Notfoundpage";
 import Layout from "./components/layout";
+import Singlepage from "./pages/Singlepage";
 
 const App = () => {
     return (
@@ -17,6 +18,7 @@ const App = () => {
                     <Route index element={<Homepage/>}/>
                     <Route path='about' element={<Aboutpage/>}/>
                     <Route path='posts' element={<Blogpage/>}/>
+                    <Route path='posts/:id' element={<Singlepage/>}/>
                     <Route path='*' element={<Notfoundpage/>}/>
                 </Route>
 

@@ -43,6 +43,7 @@ header a.active-link{
 footer{
   text-align: center;
   background: aqua;
+  padding: 20px 20px;
 }
 
 main{
